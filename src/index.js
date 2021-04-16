@@ -4,7 +4,9 @@ import { GlobalStyles } from './global-styles';
 import { App } from './app';
 import { FirebaseContext } from './context/firebase';
 
-import { seedDatabase } from './seed';
+// import { seedDatabase } from './seed';
+// seedDatabase(firebase)
+// !! don't take this comment away or it will duplicate seed the database
 
 const config = {
     apiKey: "AIzaSyBmnuAF2c-okDjRvqzIfO3B6xBXeQNmwps",
